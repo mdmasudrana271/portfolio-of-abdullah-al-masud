@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name": "LUMINIS PHOTO STUDIO",
+        "Overview":"A Complete website for photo shooting and photo service,Single-page app (SPA) Authentication with firebase, and authorization with JWT Token this application has a private route and also has a user review section Users can add, delete update a review, and can also add a service",
+        "Technologies":"HTML,CSS,TailwindCss,daisyUi,JavaScript,",
+        "tech1":"MongoDB,Express,React,React Hot Toast,express js,Firebase,JWT Token",
+        "server": "https://github.com/mdmasudrana271/luminis-photo-studio-server",
+        "client": "https://github.com/mdmasudrana271/luminis-photo-studio",
+        "live":"https://travelphotographer-61e8c.web.app/"
+    },
+    {
+        "id":2,
+        "name": "CyberCodeDev",
+        "Overview":"A Complete website for E-Learning Platforms and Online Courses,Single-page app (SPA) Authentication with firebase, and authorization with JWT Token this application has a private route and also has a user review section Users can add, delete update a review, and can also add a service Implemented theme toggler from light mode to dark mode Authentication maintained via Firebase.",
+        "Technologies":"HTML, CSS, JavaScript, React, Mongodb, Firebase, TailwindCss, daisyUi,",
+        "server": "https://github.com/mdmasudrana271/cyber-code-dev-server",
+        "client": "https://github.com/mdmasudrana271/cyber-code-dev-client",
+        "live":"https://cybercodedev-11d3d.web.app/"
+    },
+    {
+        "id":3,
+        "name": "QUIZ QUIP",
+        "Overview":"A Complete website for online quiz Single-page app (SPA) Show quiz topic on the home page Use the eye button on the quiz section to show the right answer Show quiz data analysis using recharts",
+        "Technologies":"HTML, CSS, JavaScript, React, TailwindCss, daisyUi, React Toastify, React recharts",
+        "server": "",
+        "client": "https://github.com/mdmasudrana271/quiz-app",
+        "live":"https://benevolent-moxie-7ed665.netlify.app/"
+    }
+]
