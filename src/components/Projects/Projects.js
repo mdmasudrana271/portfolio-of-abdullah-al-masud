@@ -28,15 +28,6 @@ const Projects = () => {
                 {project.name}
                 <div className="badge badge-secondary"><a href={project?.live}>App</a></div>
               </h2>
-              <p>
-                <span className="text-lg font-bold">Overview</span>:{" "}
-                {project.Overview}
-              </p>
-              <p>
-                <span className="text-lg font-bold">Technologies</span>:{" "}
-                {project.Technologies}
-              </p>
-              <p>{project?.tech1}</p>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline"><a href={project?.client}>Server side</a></div>
                 <div className="badge badge-outline"><a href={project?.server}>Client side</a></div>

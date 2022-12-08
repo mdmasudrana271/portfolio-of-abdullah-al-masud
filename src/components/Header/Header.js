@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { FaCode } from "react-icons/fa";
+import { FaCode, FaMoon, FaSun } from "react-icons/fa";
+import { ThemeContext } from "../../context/ThemeProvider";
 
 const Header = () => {
+  const { theme, setTheme } = useContext(ThemeContext);
+  const handleTheme = () => {
+    if (theme === "dark") {
+      setTheme("light");
+    } else {
+      setTheme("dark");
+    }
+  };
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -42,6 +51,14 @@ const Header = () => {
           <li>
             <Link to='/contact'>Contact Me</Link>
           </li>
+          <li>
+          <div
+              onClick={handleTheme}
+              className="cursor-pinter flex items-center justify-start mx-3"
+            >
+              {theme === "dark" ? <FaSun></FaSun> : <FaMoon></FaMoon>}
+            </div>
+          </li>
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-5xl text-cyan-600"><FaCode /></a>
@@ -62,6 +79,14 @@ const Header = () => {
           </li>
           <li>
             <Link to='/contact'>Contact Me</Link>
+          </li>
+          <li>
+          <div
+              onClick={handleTheme}
+              className="cursor-pinter flex items-center justify-start mx-3"
+            >
+              {theme === "dark" ? <FaSun></FaSun> : <FaMoon></FaMoon>}
+            </div>
           </li>
         </ul>
       </div>

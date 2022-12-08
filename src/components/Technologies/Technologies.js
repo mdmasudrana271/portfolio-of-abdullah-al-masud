@@ -16,191 +16,131 @@ import vscode from "../../assets/image/vscode.822a59e800591ba1c060e2ad46bd6ba6.s
 const Technologies = () => {
   return (
     <section className="mt-10">
-        <h1 className="text-center text-5xl font-bold mb-5">My Technical Skills</h1>
-        <p className="typewriter text-center text-xl">Technologies I’ve been working with</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-20">
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={html}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        className="w-1/2 mx-auto"
-        src={css}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={js}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={react}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={tailwind}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={material}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={bootstrap}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={mongodb}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={nodejs}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={firebase}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={netlify}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-        
-        className="w-1/2 mx-auto"
-        src={vscode}
-        alt=""
-      />
-      <img
-        data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    
-    data-aos-mirror="true"
-    data-aos-once="false"
-    
-
-        className="w-1/2 mx-auto"
-        src={git}
-        alt=""
-      />
-    </div>
+      <h1 className="text-center text-5xl font-bold mb-5">
+        My Technical Skills
+      </h1>
+      <p className="typewriter text-center text-xl">
+        Technologies I’ve been working with
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-20">
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={html}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={css}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={js}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={react}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={tailwind}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={material}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={bootstrap}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={mongodb}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={nodejs}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={firebase}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={netlify}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={vscode}
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="w-1/2 mx-auto"
+          src={git}
+          alt=""
+        />
+      </div>
     </section>
   );
 };
