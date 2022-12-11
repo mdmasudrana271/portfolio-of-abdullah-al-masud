@@ -64,7 +64,7 @@ const Header = () => {
           </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-5xl text-cyan-600"><FaCode /></a>
+        <Link to='/' className="btn btn-ghost normal-case text-5xl text-cyan-600"><FaCode /></Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal p-0">

@@ -1,5 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+import "react-photo-view/dist/react-photo-view.css";
 
 const Details = () => {
   const data = useLoaderData()[0];
@@ -9,21 +11,33 @@ const Details = () => {
       <section className="py-6 ">
         <div className="container flex flex-col justify-center p-4 mx-auto">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 sm:grid-cols-2">
-            <img
-              className="object-cover w-full dark:bg-gray-500 aspect-square"
-              src={data.img1}
-              alt=""
-            />
-            <img
-              className="object-cover w-full dark:bg-gray-500 aspect-square"
-              src={data.img2}
-              alt=""
-            />
-            <img
-              className="object-cover w-full dark:bg-gray-500 aspect-square"
-              src={data.img3}
-              alt=""
-            />
+            <PhotoProvider>
+              <PhotoView src={data.img1}>
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src={data.img1}
+                  alt=""
+                />
+              </PhotoView>
+            </PhotoProvider>
+            <PhotoProvider>
+              <PhotoView src={data.img2}>
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src={data.img2}
+                  alt=""
+                />
+              </PhotoView>
+            </PhotoProvider>
+            <PhotoProvider>
+              <PhotoView src={data.img3}>
+                <img
+                  className="object-cover w-full dark:bg-gray-500 aspect-square"
+                  src={data.img3}
+                  alt=""
+                />
+              </PhotoView>
+            </PhotoProvider>
           </div>
         </div>
       </section>
