@@ -1,24 +1,38 @@
 [
-    {
-        "id":1,
-        "name": "LUMINIS PHOTO STUDIO",
-        "tech1":"MongoDB,Express,React,React Hot Toast,express js,Firebase,JWT Token",
-        "server": "https://github.com/mdmasudrana271/luminis-photo-studio-server",
-        "client": "https://github.com/mdmasudrana271/luminis-photo-studio",
-        "live":"https://travelphotographer-61e8c.web.app/"
-    },
-    {
-        "id":2,
-        "name": "CyberCodeDev",
-        "server": "https://github.com/mdmasudrana271/cyber-code-dev-server",
-        "client": "https://github.com/mdmasudrana271/cyber-code-dev-client",
-        "live":"https://cybercodedev-11d3d.web.app/"
-    },
-    {
-        "id":3,
-        "name": "The Cozy Library",
-        "server": "https://github.com/mdmasudrana271/the-cozy-library-server",
-        "client": "https://github.com/mdmasudrana271/the-cozy-library-client",
-        "live":" https://the-cozy-library.web.app/"
-    }
+  {
+    "id": 1,
+    "name": "LUMINIS PHOTO STUDIO",
+    "img1": "https://i.ibb.co/r5CJHjD/Screenshot-2022-12-11-144719.png",
+    "img2": "https://i.ibb.co/sK4KRZ6/Screenshot-2022-12-11-144611.png",
+    "img3": "https://i.ibb.co/bdpvWDm/Screenshot-2022-12-11-144520.png",
+    "tech": "MongoDB,Express,React,React Hot Toast,express js,Firebase,JWT Token",
+    "server": "https://github.com/mdmasudrana271/luminis-photo-studio-server",
+    "client": "https://github.com/mdmasudrana271/luminis-photo-studio",
+    "live": "https://travelphotographer-61e8c.web.app/",
+    "description": "this is single page application firebase authentication implemented in this application three types of authentication system use in this application google sign in github and email password authentication system this project hoisted on firebase this application has a private routes when user try to go inside the route user have must be logged in otherwise this page redirect user to login page also implemented image previewer added dark and light mode in this application when user register in this application then fire a toast to make sure that user successfully regiserd this application has a user profile on navbar and show there user photo and name added 404 route when user try to go unknown routes then show this routes and show an error msg in this routes this application is resposible for moblie tablet and desctop view this application has a FAQ section where answer some common questions use backend to load data from server side use mongodb for store data"
+  },
+  {
+    "id": 2,
+    "name": "CyberCodeDev",
+    "tech":"HTML, CSS, JavaScript, React, Mongodb, Firebase, TailwindCss,daisyUi,",
+    "img1": "https://i.ibb.co/swWG9cL/Screenshot-2022-12-11-144845.png",
+    "img2": "https://i.ibb.co/x7DL3NN/Screenshot-2022-12-11-144924.png",
+    "img3": "https://i.ibb.co/HqcCST4/Screenshot-2022-12-11-145038.png",
+    "server": "https://github.com/mdmasudrana271/cyber-code-dev-server",
+    "client": "https://github.com/mdmasudrana271/cyber-code-dev-client",
+    "live": "https://cybercodedev-11d3d.web.app/",
+    "description": "this is single page application firebase authentication implemented in this application three types of authentication system use in this application google sign in github and email password authentication system this project hoisted on firebase this application has a private routes when user try to go inside the route user have must be logged in otherwise this page redirect user to login page also implemented pdf downloading system added dark and light mode in this application added email varification and password reset system when user register in this application then fire a toast to make sure that user successfully regiserd this application has a user profile where show all user details and if user email was varifyed then show user online otherwise show user is ofline added 404 route when user try to go unknown routes then show this routes and show an error msg in this routes this application is resposible for moblie tablet and desctop view this application has a FAQ section where answer some common questions use backend to load data from server side"
+  },
+  {
+    "id": 3,
+    "img1": "https://i.ibb.co/W22r8n7/Screenshot-2022-12-11-144009.png",
+    "img2": "https://i.ibb.co/kQkNttY/Screenshot-2022-12-11-144032.png",
+    "img3": "https://i.ibb.co/MfzM00v/Screenshot-2022-12-11-144344.png",
+    "name": "The Cozy Library",
+    "tech":"HTML, CSS, TailwindCss, daisyUi, JavaScript, MongoDB, Express, React, React Hot Toast, Express js, Firebase, JWT Token",
+    "server": "https://github.com/mdmasudrana271/the-cozy-library-server",
+    "client": "https://github.com/mdmasudrana271/the-cozy-library-client",
+    "live": " https://the-cozy-library.web.app/",
+    "description": "this is single page application firebase authentication implemented in this application three types of authentication system use in this application google sign in and email password authentication system this project hoisted on firebase this application has an admin dashboard when user is logedin and user is admin then admin dashboard is visible this application has an seller dashboard when user is logedin and user is seller then admin dashboard is visible and also has an buyer dashboard when user is logedin then visble the dashboard also implemented image previewer added dark and light mode in this application when user register in this application then fire a toast to make sure that user successfully regiserd this application has a user profile on navbar and show there user photo and name added 404 route when user try to go unknown routes then show this routes and show an error msg in this routes this application is resposible for moblie tablet and desctop view this application has a FAQ section where answer some common questions use backend to load data from server side use mongodb for store data"
+  }
 ]
