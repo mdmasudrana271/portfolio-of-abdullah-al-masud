@@ -15,7 +15,7 @@ const Projects = () => {
       });
   }, []);
   return (
-    <section className="mt-10">
+    <section className="my-10 text-lime-400">
       <h2 className="typewriter text-center text-5xl font-bold pb-5">
         <Typewriter
           options={{
@@ -27,7 +27,7 @@ const Projects = () => {
         />
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 my-10 mx-5">
         {projects.map((project) => (
           <div key={project.id} className="card w-full bg-base-100 shadow-xl">
             <figure>
@@ -46,10 +46,10 @@ const Projects = () => {
               </h2>
               <div className="card-actions justify-end">
                 <div className="badge badge-outline">
-                  <a href={project?.client}>Server side</a>
+                  <a href={project?.client}>Client side</a>
                 </div>
                 <div className="badge badge-outline">
-                  <a href={project?.server}>Client side</a>
+                  <a href={project?.server}> Server side</a>
                 </div>
                 <div className="badge badge-outline">
                   <Link to={`/details/${project._id}`}>Details</Link>

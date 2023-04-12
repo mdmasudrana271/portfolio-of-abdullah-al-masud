@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-gray-800 text-neutral-content">
+    <footer className="footer p-10  bg-footer-bg bg-cover bg-no-repeat text-white ">
       <div>
         
         <p className="">
@@ -13,13 +13,13 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <span className="footer-title">Social</span>
+        <span className="footer-title ">Social</span>
         <div className="grid grid-flow-col gap-4">
           <a href="https://www.facebook.com/mdabdullamasud.rana">
-            <FaFacebook className="text-blue-300 text-3xl"/>
+            <FaFacebook className="text-blue-700 text-3xl"/>
           </a>
           <a href='https://www.linkedin.com/in/md-abdullahalmasud/'>
-          <FaLinkedin className="text-blue-300 text-3xl"/>
+          <FaLinkedin className="text-blue-700 text-3xl"/>
           </a>
           <a href='https://github.com/mdmasudrana271'>
           <FaGithub className=" text-3xl"/>

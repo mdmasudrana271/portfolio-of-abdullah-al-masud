@@ -1,19 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { FaCode, FaMoon, FaSun } from "react-icons/fa";
-import { ThemeContext } from "../../context/ThemeProvider";
+import { FaCode} from "react-icons/fa";
 
 const Header = () => {
-  const { theme, setTheme } = useContext(ThemeContext);
-  const handleTheme = () => {
-    if (theme === "dark") {
-      setTheme("light");
-    } else {
-      setTheme("dark");
-    }
-  };
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +25,7 @@ const Header = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100  rounded-box w-52"
           >
             <li>
             <Link to='/home'>Home</Link>
@@ -54,20 +45,12 @@ const Header = () => {
           <li>
             <Link to='/contact'>Contact Me</Link>
           </li>
-          <li>
-          <div
-              onClick={handleTheme}
-              className="cursor-pinter flex items-center justify-start mx-3"
-            >
-              {theme === "dark" ? <FaSun></FaSun> : <FaMoon></FaMoon>}
-            </div>
-          </li>
           </ul>
         </div>
         <Link to='/' className="btn btn-ghost normal-case text-5xl text-cyan-600"><FaCode /></Link>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">
+        <ul className="menu menu-horizontal text-white p-0">
           <li>
             <Link to='/home'>Home</Link>
           </li>
@@ -85,14 +68,6 @@ const Header = () => {
           </li>
           <li>
             <Link to='/contact'>Contact Me</Link>
-          </li>
-          <li>
-          <div
-              onClick={handleTheme}
-              className="cursor-pinter flex items-center justify-start mx-3"
-            >
-              {theme === "dark" ? <FaSun></FaSun> : <FaMoon></FaMoon>}
-            </div>
           </li>
         </ul>
       </div>

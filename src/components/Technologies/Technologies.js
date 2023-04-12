@@ -14,8 +14,8 @@ const Technologies = () => {
   }, []);
 
   return (
-    <section className="mt-10">
-      <h1 className="text-center text-5xl font-bold mb-5">
+    <section className="mt-10 text-lime-400 mx-5">
+      <h1 className="text-center text-3xl md:text-5xl font-bold mb-5">
         My Technical Skills
       </h1>
       <p className="text-center text-xl">

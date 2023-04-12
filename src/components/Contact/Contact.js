@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="py-6">
+    <section className="py-6 text-lime-400">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
           <h1 className="text-4xl font-bold">Get in touch</h1>
@@ -48,22 +48,22 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <form action="https://getform.io/f/923d35e5-4392-4fdd-8a69-533de3d72d65" method="POST" className="p-10">
+        <form action="https://getform.io/f/923d35e5-4392-4fdd-8a69-533de3d72d65" method="POST" className="p-10 ">
         
           <label className="label">
-            <span className="label-text">Name</span>
+            <span className="label-text text-white">Name</span>
           </label>
-          <input type="text" name="name" placeholder="Your Name" className="input input-bordered w-full" ></input>
+          <input type="text" name="name" placeholder="Your Name" className="input input-bordered w-full bg-white" ></input>
           <label className="label">
-            <span className="label-text">Email</span>
+            <span className="label-text text-white">Email</span>
           </label>
-          <input type="email" name="email" placeholder="email" className="input input-bordered w-full" ></input>
+          <input type="email" name="email" placeholder="email" className="input input-bordered w-full bg-white" ></input>
       
         
           <label className="label">
-            <span className="label-text">Message</span>
+            <span className="label-text text-white">Message</span>
           </label>
-          <textarea name="message" className="textarea input-bordered w-full" placeholder="Message"></textarea>
+          <textarea name="message" className="textarea input-bordered w-full bg-white" placeholder="Message"></textarea>
           <label className="label"></label>
           <button type="submit" className="btn btn-accent">Send</button>
         </form>

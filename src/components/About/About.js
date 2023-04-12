@@ -4,10 +4,10 @@ import animation from "../../hi.json";
 
 const About = () => {
   return (
-    <section className="mb-10">
+    <section className="mb-10 text-lime-400">
       <div className="md:flex items-center justify-between mx-10">
         <div className="md:w-1/2">
-          <figure className="md:w-96">
+          <figure className="md:w-96 md:h-[600px]">
             <Lottie loop={true} animationData={animation}></Lottie>
           </figure>
         </div>
