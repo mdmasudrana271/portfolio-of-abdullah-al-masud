@@ -74,7 +74,7 @@ const Home = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 150,
+              distance: 200,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -89,7 +89,7 @@ const Home = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 4,
+              speed: 2,
               straight: false,
             },
             number: {
@@ -169,7 +169,7 @@ const Home = () => {
       <div className="mt-52">
         <Technologies></Technologies>
       </div>
-      <div className="mt-52">
+      <div className="mt-40">
         <Projects></Projects>
       </div>
     </section>
